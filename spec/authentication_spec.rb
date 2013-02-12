@@ -1,7 +1,7 @@
 require_relative '../authentication.rb'
 
 class Dummy
-  include Authentication
+  include AuthenticatedObject
 end
 
 describe Dummy do

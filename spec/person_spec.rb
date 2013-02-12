@@ -41,5 +41,5 @@ describe Person do
     end
   end
 
-  it { should be_a_kind_of Authentication }
+  it { should be_a_kind_of AuthenticatedObject }
 end

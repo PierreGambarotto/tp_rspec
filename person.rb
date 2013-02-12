@@ -2,7 +2,7 @@ require_relative './authentication'
 class Person
    attr_accessor :first_name, :last_name, :id
 
-  include Authentication
+  include AuthenticatedObject
   def initialize
     @first_name = @last_name = @id = ""
   end

@@ -1,5 +1,5 @@
 require 'digest/sha1'
-module Authentication
+module AuthenticatedObject
   attr_reader :password
   def password=(clear_text)
     @password = Digest::SHA1.hexdigest(clear_text)
